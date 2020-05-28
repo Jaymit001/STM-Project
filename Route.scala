@@ -1,4 +1,4 @@
-package org.kishore.scala.mcit
+package stm.project
 case class Route(
                   route_id: Int,
                   agency_id: String,
