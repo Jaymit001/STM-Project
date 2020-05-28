@@ -1,4 +1,4 @@
-package org.scala.mcit
+package stm.project
 
 case class Calendar(
                      service_id: String,
