@@ -28,6 +28,12 @@ object EnrichedTrip extends App {
       t+","r+","+c
     }
       )
+  ///writing the output file to outputfile
+  for (i <- output) {
+    outputFile.newLine()
+    outputFile.write(i)
+  }
+  outputFile.close()
   
   
   
